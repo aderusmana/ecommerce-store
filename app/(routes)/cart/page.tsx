@@ -13,7 +13,7 @@ const CartPage = () => {
         setIsMounted(true)
     },[])
 
-    if(!isMounted) return null
+    if(isMounted) return null
 
   return (
     <div className='bg-white'>
